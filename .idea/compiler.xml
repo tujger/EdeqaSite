@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Edequate_main" target="1.7" />
+      <module name="edequate_main" target="1.7" />
+      <module name="edequate_test" target="1.7" />
+      <module name="Edequate_test" target="1.7" />
+      <module name="Helpers_main" target="1.7" />
+      <module name="Helpers_test" target="1.7" />
+      <module name="www_main" target="1.7" />
+      <module name="www_test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

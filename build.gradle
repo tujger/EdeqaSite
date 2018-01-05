@@ -34,9 +34,9 @@ repositories {
 dependencies {
     compile project(':Helpers')
     compile project(':Edequate')
-    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    providedCompile 'javax.servlet:javax.servlet-api:+'
     providedCompile 'com.google.appengine:appengine:+'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'junit:junit:+'
 }
 
 gretty {

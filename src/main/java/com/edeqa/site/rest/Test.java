@@ -11,13 +11,20 @@ import java.util.ArrayList;
 
 public class Test implements RestAction {
 
-    public static final String actionName = "test";
+    @Override
+    public String getApiVersion() {
+        return "v1";
+    }
+
+    @Override
+    public String getActionName() {
+        return "test";
+    }
 
     @Override
     public void call(JSONObject json, RequestWrapper request) {
         try {
             Misc.log("Test", "requested: ");
-
             ArrayList<File> files = new ArrayList<>();
 
                 json.put(STATUS, STATUS_SUCCESS);

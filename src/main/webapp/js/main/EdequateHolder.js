@@ -23,7 +23,7 @@ function EdequateHolder(main) {
         console.log("Resuming EdequateHolder");
         u.progress.show(u.lang.loading);
         u.clear(main.content);
-        u.post("/rest/v1/content", {resource: "main-edequate.html", locale: main.selectLang.value}).then(function(xhr){
+        u.post("/rest/content", {resource: "main-edequate.html", locale: main.selectLang.value}).then(function(xhr){
             u.create(HTML.DIV, {className: "content-normal", innerHTML: xhr.response}, main.content);
             u.progress.hide();
         }).catch(function(error, json) {

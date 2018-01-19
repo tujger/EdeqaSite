@@ -23,7 +23,7 @@ function WaytousHolder(main) {
         console.log("Resuming WaytousHolder");
         u.progress.show(u.lang.loading);
         u.clear(main.content);
-        u.post("/rest/v1/content", {resource: "main-waytous.html", locale: main.selectLang.value}).then(function(xhr){
+        u.post("/rest/content", {resource: "main-waytous.html", locale: main.selectLang.value}).then(function(xhr){
             u.create(HTML.DIV, {className: "content-normal", innerHTML: xhr.response}, main.content);
             u.progress.hide();
         }).catch(function(error, json) {

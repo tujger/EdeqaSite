@@ -1,7 +1,7 @@
 package com.edeqa.site.rest;
 
 import com.edeqa.edequate.helpers.RequestWrapper;
-import com.edeqa.edequate.interfaces.RestAction;
+import com.edeqa.edequate.interfaces.NamedCall;
 import com.edeqa.helpers.Misc;
 
 import org.json.JSONObject;
@@ -9,10 +9,10 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.ArrayList;
 
-public class Test implements RestAction {
+public class Test implements NamedCall<RequestWrapper> {
 
     @Override
-    public String getActionName() {
+    public String getName() {
         return "test";
     }
 

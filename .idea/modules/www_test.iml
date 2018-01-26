@@ -14,7 +14,7 @@
     <orderEntry type="module" module-name="Edequate_main" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.0" level="project" />
     <orderEntry type="library" name="Gradle: javax.websocket:javax.websocket-api:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.5" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.json:json:20171018" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:23.6-jre" level="project" />

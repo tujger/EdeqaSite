@@ -1,7 +1,7 @@
 package com.edeqa.site.rest;
 
+import com.edeqa.edequate.abstracts.AbstractAction;
 import com.edeqa.edequate.helpers.RequestWrapper;
-import com.edeqa.edequate.interfaces.NamedCall;
 import com.edeqa.helpers.Misc;
 
 import org.json.JSONObject;
@@ -9,15 +9,15 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.ArrayList;
 
-public class Test implements NamedCall<RequestWrapper> {
+public class Test extends AbstractAction<RequestWrapper> {
 
     @Override
-    public String getName() {
+    public String getType() {
         return "test";
     }
 
     @Override
-    public void call(JSONObject json, RequestWrapper request) {
+    public boolean onEvent(JSONObject json, RequestWrapper request) {
         try {
             Misc.log("Test", "requested: ");
             ArrayList<File> files = new ArrayList<>();
@@ -29,6 +29,7 @@ public class Test implements NamedCall<RequestWrapper> {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return true;
     }
 }
 

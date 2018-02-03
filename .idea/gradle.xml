@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Edequate" />
+            <option value="$PROJECT_DIR$/EventBus" />
             <option value="$PROJECT_DIR$/Helpers" />
             <option value="$PROJECT_DIR$/www" />
           </set>

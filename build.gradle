@@ -34,6 +34,7 @@ repositories {
 dependencies {
     compile project(':Helpers')
     compile project(':Edequate')
+    compile project(':EventBus')
     providedCompile 'javax.servlet:javax.servlet-api:+'
     providedCompile 'com.google.appengine:appengine:+'
     testCompile 'junit:junit:+'

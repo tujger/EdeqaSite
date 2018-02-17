@@ -17,7 +17,7 @@ public class Test extends AbstractAction<RequestWrapper> {
     }
 
     @Override
-    public boolean onEvent(JSONObject json, RequestWrapper request) {
+    public void call(JSONObject json, RequestWrapper request) {
         try {
             Misc.log("Test", "requested: ");
             ArrayList<File> files = new ArrayList<>();
@@ -29,7 +29,6 @@ public class Test extends AbstractAction<RequestWrapper> {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return true;
     }
 }
 

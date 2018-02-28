@@ -13,28 +13,6 @@
           <root url="file://C:\Users\eduardm\AndroidStudioProjects\Edeqa Site\src\main\webapp" relative="/" />
           <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/.idea" relative="/.idea" />
           <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y" relative="/" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/META-INF" relative="/META-INF" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF" relative="/WEB-INF" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes" relative="/WEB-INF/classes" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com" relative="/WEB-INF/classes/com" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com/edeqa" relative="/WEB-INF/classes/com/edeqa" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com/edeqa/edequate" relative="/WEB-INF/classes/com/edeqa/edequate" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com/edeqa/edequate/abstracts" relative="/WEB-INF/classes/com/edeqa/edequate/abstracts" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com/edeqa/edequate/helpers" relative="/WEB-INF/classes/com/edeqa/edequate/helpers" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com/edeqa/edequate/interfaces" relative="/WEB-INF/classes/com/edeqa/edequate/interfaces" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/classes/com/edeqa/edequate/rest" relative="/WEB-INF/classes/com/edeqa/edequate/rest" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/WEB-INF/lib" relative="/WEB-INF/lib" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/content" relative="/content" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/content/en" relative="/content/en" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/content/ru" relative="/content/ru" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/css" relative="/css" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/icons" relative="/icons" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/images" relative="/images" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/js" relative="/js" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/js/main" relative="/js/main" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/resources" relative="/resources" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/resources/en" relative="/resources/en" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/resources/ru" relative="/resources/ru" />
         </webroots>
       </configuration>
     </facet>
@@ -42,6 +20,8 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y" />
+    <content url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/.idea" />
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />

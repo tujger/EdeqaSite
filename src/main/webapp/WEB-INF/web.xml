@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
     id="WebApp_ID" version="3.0">
 
     <servlet>
@@ -11,7 +10,7 @@
 
     <servlet>
         <servlet-name>RestServlet</servlet-name>
-        <servlet-class>com.edeqa.edequate.RestServletHandler</servlet-class>
+        <servlet-class>com.edeqa.site.RestServletHandler</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -69,15 +68,5 @@
     <absolute-ordering>
         <name>edequate</name>
     </absolute-ordering>
-
-
-    <servlet>
-        <servlet-name>RestServlet</servlet-name>
-        <servlet-class>com.edeqa.site.RestServletHandler</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>RestServlet</servlet-name>
-        <url-pattern>/rest/*</url-pattern>
-    </servlet-mapping>
 
 </web-app>

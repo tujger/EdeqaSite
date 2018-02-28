@@ -10,6 +10,13 @@
     <facet type="app-engine-standard" name="Google App Engine Standard">
       <configuration />
     </facet>
+    <facet type="web" name="Web Gradle : Edequate.war">
+      <configuration>
+        <webroots>
+          <root url="file://C:\Users\eduardm\AndroidStudioProjects\Edeqa Site\Edequate\src\main\webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/../../../Edequate/out/production/classes" />

@@ -21,6 +21,8 @@
         <include path="/images/*"/>
         <include path="/js/*"/>
         <include path="/sounds/*"/>
+        <include path="/resources/*"/>
+        <include path="/data/*"/>
     </static-files>
 
     <warmup-requests-enabled>false</warmup-requests-enabled>

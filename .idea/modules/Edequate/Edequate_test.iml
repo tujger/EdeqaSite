@@ -10,9 +10,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Edequate_main" />
-    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.7" level="project" />
     <orderEntry type="library" name="Gradle: org.json:json:20171018" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:24.0-jre" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:24.1-jre" level="project" />
     <orderEntry type="module" module-name="EventBus_main" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.0" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />

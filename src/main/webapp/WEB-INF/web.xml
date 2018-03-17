@@ -11,7 +11,12 @@
 
     <servlet>
         <servlet-name>RestServlet</servlet-name>
-        <servlet-class>com.edeqa.edequate.RestServletHandler</servlet-class>
+        <servlet-class>com.edeqa.site.RestServletHandler</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>com.edeqa.edequate.AdminServletHandler</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -22,6 +27,11 @@
     <servlet-mapping>
         <servlet-name>RestServlet</servlet-name>
         <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin/*</url-pattern>
     </servlet-mapping>
 
     <filter>
@@ -69,15 +79,5 @@
     <absolute-ordering>
         <name>edequate</name>
     </absolute-ordering>
-
-
-    <servlet>
-        <servlet-name>RestServlet</servlet-name>
-        <servlet-class>com.edeqa.site.RestServletHandler</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>RestServlet</servlet-name>
-        <url-pattern>/rest/*</url-pattern>
-    </servlet-mapping>
 
 </web-app>

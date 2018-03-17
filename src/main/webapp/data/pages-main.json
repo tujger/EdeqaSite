@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "category": 3,
+      "icon": "/images/edequate-gray.svg",
+      "menu": "Edequate",
+      "resource": "main-edequate.html",
+      "title": "Edequate",
+      "type": "edequate"
+    },
+    {
+      "category": 3,
+      "icon": "/images/waytous-gray.svg",
+      "menu": "Waytous",
+      "resource": "main-waytous.html",
+      "title": "Waytous",
+      "type": "waytous"
+    }
+  ],
+  [
+    {
+      "category": 9,
+      "icon": "help",
+      "menu": "privacy",
+      "resource": "privacy-policy.html",
+      "title": "privacy_policy",
+      "type": "privacy"
+    },
+    {
+      "category": 9,
+      "icon": "info_outline",
+      "menu": "terms",
+      "priority": -10,
+      "resource": "terms-of-service.html",
+      "title": "terms_of_service",
+      "type": "terms"
+    }
+  ]
+]

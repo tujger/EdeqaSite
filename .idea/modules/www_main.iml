@@ -10,9 +10,9 @@
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/main/webapp/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
-          <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_be52k5lyfcu142omw4ithqti4/.idea" relative="/.idea" />
-          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_be52k5lyfcu142omw4ithqti4" relative="" />
+          <root url="file://C:\Users\eduardm\AndroidStudioProjects\Edeqa Site\src\main\webapp" relative="/" />
+          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/.idea" relative="/.idea" />
+          <root url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y" relative="/" />
         </webroots>
       </configuration>
     </facet>
@@ -20,8 +20,8 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_be52k5lyfcu142omw4ithqti4" />
-    <content url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_be52k5lyfcu142omw4ithqti4/.idea" />
+    <content url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y" />
+    <content url="file://$MODULE_DIR$/../../build/tmp/expandedArchives/Edequate.war_dfmdmy8e4spyxy56g4mrepe4y/.idea" />
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
@@ -33,9 +33,9 @@
     <orderEntry type="module" module-name="EventBus_main" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:4.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.websocket:javax.websocket-api:1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.json:json:20171018" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:24.1-jre" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:24.0-jre" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" level="project" />
     <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.0.0" level="project" />

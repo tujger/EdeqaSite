@@ -13,7 +13,7 @@ public class Test extends AbstractAction<RequestWrapper> {
 
     @Override
     public String getType() {
-        return "test";
+        return "/rest/test";
     }
 
     @Override

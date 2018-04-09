@@ -18,7 +18,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../../Edequate/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../Edequate/src/main">
@@ -27,9 +27,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.github.edeqa:helpers:1.5" level="project" />
+    <orderEntry type="module" module-name="Helpers_main" />
     <orderEntry type="library" name="Gradle: org.json:json:20171018" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:24.0-jre" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:24.1-jre" level="project" />
     <orderEntry type="module" module-name="EventBus_main" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:4.0.0" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
